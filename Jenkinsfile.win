@@ -38,6 +38,11 @@ pipeline {
 		junit 'report/'
             }
         }
-		
+	stage('CodeReveiw') {
+            steps {
+            echo '-----Invoke CodeReview------------'
+            build 'CPSP_Demo_CodeReview'
+			}
 		}
+	}
 }
