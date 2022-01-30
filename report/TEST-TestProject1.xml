@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="SAG-7SPQPV2" name="com.wm.ps.test.WmTestSuite [TestProject1]" skipped="0" tests="1" time="1.815" timestamp="2022-01-30T11:56:10">
+  <properties>
+    <property name="java.vendor" value="Azul Systems, Inc." />
+    <property name="isTests" value="./assets/IS/Tests" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="testISUsername" value="Administrator" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="rulesProjectsDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\Rules" />
+    <property name="sun.boot.class.path" value="C:\SoftwareAG103\jvm\jvm\jre\lib\resources.jar;C:\SoftwareAG103\jvm\jvm\jre\lib\rt.jar;C:\SoftwareAG103\jvm\jvm\jre\lib\sunrsasign.jar;C:\SoftwareAG103\jvm\jvm\jre\lib\jsse.jar;C:\SoftwareAG103\jvm\jvm\jre\lib\jce.jar;C:\SoftwareAG103\jvm\jvm\jre\lib\charsets.jar;C:\SoftwareAG103\jvm\jvm\jre\lib\jfr.jar;C:\SoftwareAG103\jvm\jvm\jre\classes" />
+    <property name="workspace.dir" value="C:\CI_CD\webmethods-sample-project-layout" />
+    <property name="sun.desktop" value="windows" />
+    <property name="isPackages" value="./assets/IS/Packages" />
+    <property name="ant.file.type.ProjectInitializer" value="file" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="SAGHome" value="C:\SoftwareAG107" />
+    <property name="ant.home" value="C:\SoftwareAG107\common\lib\ant\bin\.." />
+    <property name="abeHome" value="C:\SoftwareAG107/common/AssetBuildEnvironment" />
+    <property name="java.runtime.version" value="1.8.0_181-b02" />
+    <property name="isProjectsDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Packages" />
+    <property name="ant.file.Build and Deploy Solution" value="C:\CI_CD\sagdevops-ci-assets\build.xml" />
+    <property name="user.name" value="SAG-7SPQPV2$" />
+    <property name="isTestDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests" />
+    <property name="isWindows" value="true" />
+    <property name="bpmProjectsDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\BPM" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\SoftwareAG103\jvm\jvm\jre\bin" />
+    <property name="ant.file.type.Build" value="file" />
+    <property name="ant.project.default-target" value="buildDeployTest" />
+    <property name="ant.file.type.Deploy" value="file" />
+    <property name="ant.project.name" value="Build and Deploy Solution" />
+    <property name="java.version" value="1.8.0_181" />
+    <property name="deployerHost" value="localhost" />
+    <property name="user.timezone" value="" />
+    <property name="ant.file.Build" value="C:\CI_CD\sagdevops-ci-assets\buildCallABE.xml" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="buildOutputDir" value="C:\CI_CD\webmethods-sample-project-layout/target/CPSP_DeployTest/build" />
+    <property name="fileBasename" value="TestProject1" />
+    <property name="mwsProjects" value="./assets/MWS/" />
+    <property name="java.endorsed.dirs" value="C:\SoftwareAG103\jvm\jvm\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="projectName" value="CPSP_DeployTest" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="testPackageName" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests\TestProject1" />
+    <property name="repositoryName" value="CPSP_DeployTestRepo" />
+    <property name="webMethods.test.setup.filename" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests\TestProject1\resources\test\xml\setup\TestProject1.xml" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="IN" />
+    <property name="webMethods.integrationServer.userid" value="Administrator" />
+    <property name="java.home" value="C:\SoftwareAG103\jvm\jvm\jre" />
+    <property name="deployerProjectDefinitionTemplate" value="resources/ProjectSpecificationTemplate.xml" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\CI_CD\sagdevops-ci-assets\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="bpmProjects" value="./assets/BPM/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.181-b02" />
+    <property name="ant.file.type.Build and Deploy Solution" value="file" />
+    <property name="abeBuildfileDir" value="master_build" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\SoftwareAG107\common\lib\ant\lib" />
+    <property name="webMethods.integrationServer.port" value="5555" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="rulesProjects" value="./assets/Rules/" />
+    <property name="user.script" value="" />
+    <property name="testISHost" value="localhost" />
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile" />
+    <property name="mwsProjectsDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\MWS" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://www.azulsystems.com/" />
+    <property name="resourcesFolder" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests\TestProject1/resources" />
+    <property name="java.library.path" value="C:\SoftwareAG103\jvm\jvm\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Kubernetes\Minikube;C:\Program Files (x86)\dotnet\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;." />
+    <property name="ant.file.testBuild" value="C:\CI_CD\webmethods-sample-project-layout\build.xml" />
+    <property name="java.vm.vendor" value="Azul Systems, Inc." />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+    <property name="java.class.path" value="C:\SoftwareAG107\common\lib\ext\enttoolkit.jar;C:\SoftwareAG107\common\lib\glassfish\gf.jakarta.mail.jar;C:\SoftwareAG107\common\lib\wm-isclient.jar;C:\SoftwareAG107\IntegrationServer\lib\wm-isserver.jar;C:\CI_CD\sagdevops-ci-assets\lib\httpunit.jar;C:\CI_CD\sagdevops-ci-assets\lib\junit-4.8.2.jar;C:\CI_CD\sagdevops-ci-assets\lib\xmlunit1.0.jar;C:\CI_CD\sagdevops-ci-assets\lib\serviceInterceptor.jar;C:\CI_CD\sagdevops-ci-assets\lib\serviceMockClient.jar;C:\SoftwareAG107\common\lib\ant\lib\ant-launcher.jar;C:\SoftwareAG107\common\lib\ant\lib\ant.jar;C:\SoftwareAG107\common\lib\ant\lib\ant-junit.jar;C:\SoftwareAG107\common\lib\ant\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.wm.ps.test.WmTestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests\TestProject1\resources\reports\TEST-TestProject1.xml crashfile=C:\CI_CD\sagdevops-ci-assets\junitvmwatcher1640439282381335011.properties propsfile=C:\CI_CD\sagdevops-ci-assets\junit1035132893834087013.properties" />
+    <property name="deployerPort" value="5555" />
+    <property name="umProjectsDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\UniversalMessaging" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="umExport" value="./assets/UniversalMessaging" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="deployerInstallationPath" value="C:\SoftwareAG107/IntegrationServer/instances/default/packages/WmDeployer/bin/" />
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
+    <property name="testPackageNamePattern" value="*_Test" />
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/" />
+    <property name="ant.file.test" value="C:\CI_CD\sagdevops-ci-assets\buildTest.xml" />
+    <property name="webMethods.integrationServer.name" value="localhost" />
+    <property name="ant.file.type.test" value="file" />
+    <property name="jenkinsReportDir" value="C:\CI_CD\webmethods-sample-project-layout/report" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="failedTestList" value="" />
+    <property name="deployerProjectDefinition" value="C:\CI_CD\webmethods-sample-project-layout/ProjectAutomator/CPSP_DeployTestDeploymentSpec.xml" />
+    <property name="java.ext.dirs" value="C:\SoftwareAG103\jvm\jvm\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests\TestProject1" />
+    <property name="ant.file.type.testBuild" value="file" />
+    <property name="testPackageReportsDir" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests\TestProject1/resources/reports" />
+    <property name="ant.file.Deploy" value="C:\CI_CD\sagdevops-ci-assets\buildDeployer.xml" />
+    <property name="abeBuildPropertiesReference" value="master_build_Reference/build.properties" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="isConfigDir" value="./assets/IS/config" />
+    <property name="SAG_CI_HOME" value="C:\CI_CD\sagdevops-ci-assets" />
+    <property name="basedir" value="C:\CI_CD\sagdevops-ci-assets" />
+    <property name="ant.file.ProjectInitializer" value="C:\CI_CD\sagdevops-ci-assets\buildInitProject.xml" />
+    <property name="deployerPassword" value="manage" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\SoftwareAG107\common\lib\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="isReportingToJenkins" value="true" />
+    <property name="testISPort" value="5555" />
+    <property name="abeBuildfileFile" value="build.xml" />
+    <property name="webMethods.integrationServer.password" value="manage" />
+    <property name="deployerUsername" value="Administrator" />
+    <property name="initialXSLT" value="resources/setUpInitial.xslt" />
+    <property name="testSuitePackagesPath" value="C:\CI_CD\webmethods-sample-project-layout\assets\IS\Tests" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="testISPassword" value="manage" />
+    <property name="ant.project.invoked-targets" value="junitTestAndReportXML" />
+  </properties>
+  <testcase classname="com.wm.ps.test.WmTestCase" name="addNumbers" time="1.797" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
