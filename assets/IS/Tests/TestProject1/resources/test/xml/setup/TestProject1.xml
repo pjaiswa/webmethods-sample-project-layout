@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webMethodsTestSuite description="" name="addNumbers">
     <webMethodsTestCase name="addNumbers">
-        <service folder="Maths.services" name="addNumbers">
+        <service folder="TestPackage1.services" name="addNumbers">
             <input>
                 <file filename="resources/test/xml/data/addNumberInput"/>
             </input>
