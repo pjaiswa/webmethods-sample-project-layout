@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="numList" type="value" depth="1">
+      <value>1</value>
+      <value>3</value>
+      <value>2</value>
+    </array>
+  </record>
+</IDataXMLCoder>
